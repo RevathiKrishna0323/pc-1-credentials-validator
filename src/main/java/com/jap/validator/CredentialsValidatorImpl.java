@@ -1,9 +1,8 @@
 package com.jap.validator;
 
-public class CredentialsValidatorImpl {
-    public String validateUser(String name, String password){
-        return "";
-    }
+public abstract class CredentialsValidatorImpl {
+    public abstract String validateUser(String name, String password);
+
 
 
 
