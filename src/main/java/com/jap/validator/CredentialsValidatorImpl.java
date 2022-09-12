@@ -6,7 +6,7 @@ public class CredentialsValidatorImpl {
             if (name.equals("admin") && password.equals("1234")) {
                 return " Valid user ";
             } else {
-                return "Invalid user";
+                return "invalid user";
             }
 
         });
