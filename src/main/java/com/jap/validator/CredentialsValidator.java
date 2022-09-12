@@ -2,7 +2,6 @@ package com.jap.validator;
 
 public interface CredentialsValidator {
     //create one abstract method
-    public String Validator(String userId, String password);
 
-
+    String validator(String userId, String password);
 }
